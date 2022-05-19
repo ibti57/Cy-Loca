@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
-#define NAME "Dorian"
+#define NAME "name"
 #define PASS "password"
 #define ENTER 13
 #define BACKSPACE 8

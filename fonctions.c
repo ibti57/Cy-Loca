@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+#include <errno.h>
 
 typedef struct{
 	char marque;
@@ -24,20 +26,22 @@ void init(Voiture* voitures, int n){
 			printf("Entrez un nombre entre 1 et 72 !!\n");
 			scanf("%d",&t);
 		}while(t <1 ||t >72);
-	if(oiture.louable==0){
+	if(voiture.louable==0){
 		printf("Dommage cette voiture est déja louée choisissez en une autre.\n");
 		
+	}
 }
 
-Voiture* lireFichier(int* nbVoiture){
+Voiture* lireFichier(){
 	Voiture* tab = NULL;
 	FILE* fichier = NULL;
+	int* nbVoiture;
 	int nmbLettre;
 	fichier =fopen("carlist.txt","r");
 	if (fichier == NULL){
 		printf("Unable to open file\n");
-		printf("Error code = %d \n",&errno);
-		printf("Error message = %s \n",strerror(errno));
+		printf("Error code = %d\n",errno);
+		printf("Error message = %s\n",strerror(errno));
 		exit(1);
 		}
 		
@@ -61,7 +65,6 @@ Voiture* lireFichier(int* nbVoiture){
 
 		
 int main(){
-
 	lireFichier();
 
 	return 0;

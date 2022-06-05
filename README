@@ -1,0 +1,4 @@
+IL se compile comme un programme classiqe 
+
+gcc -o test loca.c
+./loca

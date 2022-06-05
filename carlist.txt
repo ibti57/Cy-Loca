@@ -1,0 +1,21 @@
+1 Audi RS7 195 5 1
+2 Audi RSQ3 200 5 1
+3 Audi RS3 165 5 1
+4 BMW M8 190 5 1 
+5 BMW M3 160 5 1
+6 BMW 3Series 111 5 1
+7 Ford Focus Estate 141 5 1
+8 Citroen DS3 63 5 1
+9 Citroen C3 66 4 0
+10 Mercedes-Benz C-Class 162 5 1
+11 Mercedes-Benz A-Class 162 5 1
+12 Nissan Qashqai 59 5 1
+13 Opel Corsa 63 4 1
+14 Opel Insignia 119 5 1
+15 Peugeot 308 63 5 1
+16 Renault Clio4 94 5 1
+17 Renault Twingo 53 4 1
+18 Toyota Aygo 56 4 1
+19 Toyota Yaris 64 5 1
+20 Volkswagen Golf8R 170 5 1
+21 Volkswagen Golf7R 160 5 1

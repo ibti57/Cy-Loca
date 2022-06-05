@@ -2,3 +2,5 @@ IL se compile comme un programme classique
 
 gcc -o test loca.c
 ./loca
+
+le mot de passe pour gérant est 2129557
